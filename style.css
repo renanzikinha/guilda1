@@ -1,0 +1,63 @@
+ body {
+  font-family: 'Uncial Antiqua', serif;
+  background-color: #000000;
+  color: #f4f4f4;
+  padding: 15px;
+}
+
+h1, legend {
+  color: rgb(215, 225, 17);
+}
+
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrossel button {
+  background: none;
+  border: none;
+  font-size: 4rem;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+.subtitulo{
+  text-align: center;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.slide img {
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+.slide figcaption {
+  margin-top: 8px;
+  color: rgb(240, 225, 60);
+}
+
+.active {
+  display: block;
+}
+
+.botao-inscricao {
+  display: inline-block;
+  background: gold;
+  color: #1e1e2f;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
